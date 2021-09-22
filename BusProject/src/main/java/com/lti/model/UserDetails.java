@@ -81,4 +81,12 @@ public class UserDetails {
 		this.phoneNumber = phoneNumber;
 	}
 
+	@Override
+	public String toString() {
+		return "UserDetails [userId=" + userId + ", userName=" + userName + ", password=" + password + ", emailId="
+				+ emailId + ", firstName=" + firstName + ", lastName=" + lastName + ", phoneNumber=" + phoneNumber
+				+ "]";
+	}
+
+	
 }

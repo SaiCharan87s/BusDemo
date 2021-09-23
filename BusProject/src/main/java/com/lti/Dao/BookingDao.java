@@ -1,10 +1,11 @@
 package com.lti.Dao;
 
-//import java.util.List;
+
+import com.lti.model.Bus;
 
 public interface BookingDao {
-//	public addBookingwithExistingBus();
-//	public List<E> viewAvailableSeats();
-//	public List<E> viewNoOfSeatsBooked();
+	public void addBookingwithExistingBus(Bus bus);
+	public int viewAvailableSeats(int busId);
+	public int viewNoOfSeatsBooked(int busId);
 
 }

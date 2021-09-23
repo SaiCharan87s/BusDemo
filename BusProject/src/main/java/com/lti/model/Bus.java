@@ -11,6 +11,23 @@ public class Bus {
 	String travelAgency;
 	LocalTime startTime;
 	LocalTime endTime;
+	
+	public Bus() {
+		
+	}
+
+	public Bus(int busId, String source, String destination, int numberOfSeats, double fare, String travelAgency,
+			LocalTime startTime, LocalTime endTime) {
+		this.busId = busId;
+		this.source = source;
+		this.destination = destination;
+		this.numberOfSeats = numberOfSeats;
+		this.fare = fare;
+		this.travelAgency = travelAgency;
+		this.startTime = startTime;
+		this.endTime = endTime;
+	}
+	
 	public int getBusId() {
 		return busId;
 	}

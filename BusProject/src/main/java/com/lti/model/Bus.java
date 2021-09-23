@@ -3,6 +3,7 @@ package com.lti.model;
 import java.time.LocalTime;
 
 public class Bus {
+	int no;
 	int busId;
 	String source;
 	String destination;

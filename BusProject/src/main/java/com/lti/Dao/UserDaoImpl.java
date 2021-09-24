@@ -2,6 +2,7 @@ package com.lti.Dao;
 
 import java.util.List;
 
+import com.lti.model.Booking;
 import com.lti.model.UserDetails;
 
 public class UserDaoImpl implements UserDao {
@@ -29,5 +30,18 @@ public class UserDaoImpl implements UserDao {
 		// TODO Auto-generated method stub
 		return false;
 	}
+
+	@Override
+	public List<Booking> viewBookingDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean changepassword(int userId, String newPassword) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
 
 }

@@ -8,9 +8,8 @@ import com.lti.model.Bus;
 public interface AdminDao {
 	boolean loginUser(String username, String password);
 	Bus addOrUpdateBusDetails(Bus bus);
-	Booking viewBookingDetails(Booking booking);
-//	Booking viewBookingDetailsById(int bookingId);
-//	List<Booking> viewAllBookingDetails();
-	Bus cancelBuses(int busId);
+	Booking findBookingDetailsById(int bookingId);
+	List<Booking> viewAllBookingDetails();
+	boolean cancelBuses(int busId);
 
 }

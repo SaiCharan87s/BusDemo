@@ -1,5 +1,7 @@
 package com.lti.Dao;
 
+import java.util.List;
+
 import com.lti.model.Booking;
 import com.lti.model.Bus;
 
@@ -18,13 +20,19 @@ public class AdminDaoImpl implements AdminDao{
 	}
 
 	@Override
-	public Booking viewBookingDetails(Booking booking) {
+	public boolean cancelBuses(int busId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Booking findBookingDetailsById(int bookingId) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Bus cancelBuses(int busId) {
+	public List<Booking> viewAllBookingDetails() {
 		// TODO Auto-generated method stub
 		return null;
 	}

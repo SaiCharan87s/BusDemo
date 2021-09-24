@@ -13,21 +13,22 @@ public class TicketDaoImpl implements TicketDao{
 	}
 
 	@Override
-	public boolean updateStatus() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public Passenger fetchPassengerDetails(Passenger passenger) {
+	public Bus updateStatus(int ticketId) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public Bus fetchBusDetails(Bus bus) {
+	public Passenger fetchPassengerDetails(int ticketId) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
+	@Override
+	public Bus fetchBusDetails(int ticketId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
 }

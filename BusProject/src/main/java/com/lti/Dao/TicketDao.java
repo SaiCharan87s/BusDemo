@@ -6,8 +6,8 @@ import com.lti.model.Ticket;
 
 public interface TicketDao {
 	Ticket addTicketDetails(Ticket ticket);
-	boolean updateStatus();
-	Passenger fetchPassengerDetails(Passenger passenger);
-	Bus fetchBusDetails(Bus bus);
+	Bus updateStatus(int ticketId);
+	Passenger fetchPassengerDetails(int ticketId);
+	Bus fetchBusDetails(int ticketId);
 
 }
